@@ -219,11 +219,13 @@ p {
 .team .title {
   margin-bottom: 50px;
 }
-.team-list {
+.team-thump {
   background: var(--background-basic);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team .list {
@@ -240,14 +242,12 @@ p {
   text-align: center;
   color: var(--title-color);
   margin-bottom: 10px;
-  padding-top: 30px;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  padding-bottom: 30px;
 }
 /* Подвал */
 .color-logo-footer {
@@ -319,8 +319,8 @@ p {
   background: var(--accent-color);
 }
 /* разделы портфолио*/
-.portfolio-list .cartump {
-  margin: 20px;
+.portfolio-list .cart-thumb {
+  margin: 20px 24px;
 }
 
 .portfolio .portfolio-title {
